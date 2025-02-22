@@ -1,0 +1,64 @@
+<style>
+
+    .navbar-nav {
+        font-family: 'Playfair Display', serif; 
+    }
+
+    .navbar {
+        background-color: #cecece8f ; 
+    }
+
+    .navbar-nav .nav-link {
+        color: rgb(70, 67, 67); 
+    }
+
+    /* เปลี่ยนสีข้อความเมื่อเมาส์ชี้ */
+    .navbar-nav .nav-link:hover {
+        color: rgb(27, 27, 26);
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg w-100">
+    <div class="container-fluid">
+        <ul class="navbar-nav w-100 d-flex justify-content-between">
+            <li class="nav-item flex-fill text-center">
+                <button class="btn">
+                    <a href="/home" class="nav-link"><i class="fa-solid fa-house"></i><wbr> หน้าแรก</a>
+                </button>
+            </li>
+        
+            <li class="nav-item flex-fill text-center">
+                <button class="btn">
+                    <a href="/newbook" class="nav-link"><i class="fa-solid fa-book"></i> ใหม่</a>
+                </button>
+            </li>
+            <li class="nav-item flex-fill text-center">
+                <button class="btn">
+                    <a href="/popular" class="nav-link"><i class="fa-solid fa-star"></i> มาแรง</a>
+                </button>
+            </li>
+
+            <li class="nav-item flex-fill text-center">
+                <div class="dropdown">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                        <a href="/category" class="nav-link"><i class="fa-solid fa-list"></i> หมวดหมู่</a>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/study" class="nav-link">การศึกษา</a></li>
+                        <li><a class="dropdown-item" href="/documentary" class="nav-link">สารคดี</a></li>
+                        <li><a class="dropdown-item" href="/language" class="nav-link">ภาษา</a></li>
+                        <li><a class="dropdown-item" href="/novel" class="nav-link">นิยาย</a></li>
+                        <li><a class="dropdown-item" href="/lifestyle" class="nav-link">ไลฟ์สไตล์</a></li>
+                        <li><a class="dropdown-item" href="/sports" class="nav-link">กีฬา</a></li>
+                        <li><a class="dropdown-item" href="/health" class="nav-link">สุขภาพ</a></li>
+                        <li><a class="dropdown-item" href="/dharma" class="nav-link">ธรรมะ</a></li>
+                        <li><a class="dropdown-item" href="/entertainment" class="nav-link">สาระบันเทิง</a></li>
+                        <li><a class="dropdown-item" href="/technology" class="nav-link">คอมพิวเตอร์</a></li>
+                        <li><a class="dropdown-item" href="/law" class="nav-link">กฎหมาย</a></li>
+                    </ul>
+                </div>    
+            </li>
+        </ul>
+    </div>
+</nav>
+
